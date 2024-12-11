@@ -10,7 +10,8 @@
         Snip: Snip {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LS(S)>;
+            bindings = <&kp LEFT_WIN &kp LS(S)>, <&macro_press>;
+
             label = "SNIP";
         };
     };
